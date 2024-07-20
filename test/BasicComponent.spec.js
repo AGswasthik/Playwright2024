@@ -104,7 +104,7 @@ console.log(childWindow)
         await page.locator("#keys-and-shortcuts").press('Control+a');
         //click({button:"right"})
         await page.waitForTimeout(5000)
-        //double click
-        await desktop.hover()
+        //Mouse hover
+        //await desktop.hover()
         
     })

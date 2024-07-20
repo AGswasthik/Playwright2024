@@ -1,6 +1,7 @@
 import {test, expect} from "@playwright/test"
 test("Datehandling", async ({ page }) => {
     await page.goto("https://www.redbus.in/")
+    await page.waitForLoadState('networkidle')
     await page.locator(".labelCalendarContainer").click()
     const month = await page.locator("[class='DayNavigator__IconBlock-qj8jdz-2 iZpveD']:nth-child(3)")
     while (true) {

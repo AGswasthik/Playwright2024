@@ -1,17 +1,17 @@
-const {exports,test}=require("@playwright/test")
+const {expect,test}=require("@playwright/test")
 test("jbjb", async ({ page }) => {
 
     //Single file
     await page.goto("https://cgi-lib.berkeley.edu/ex/fup.html")
     await page.waitForSelector("[name='upfile']")
     
-    await page.locator("[name='upfile']").setInputFiles("tests/uploadfileexampletests/uploadfileexample/c.png")
+    await page.locator("[name='upfile']").setInputFiles("test/c.png")
 
     //Multiple file upload put it in array line number 16
     await page.goto("https://davidwalsh.name/demo/multiple-file-upload.php")
     await page.waitForSelector("[name='filesToUpload']")
    
-    await page.locator("[name='filesToUpload']").setInputFiles(["tests/uploadfileexampletests/uploadfileexample/c.png", "tests/uploadfileexampletests/uploadfileexample/Global.pdf"])
+    await page.locator("[name='filesToUpload']").setInputFiles(["test/c.png", "test/Global.pdf"])
     const expected=["c.png", "Global.pdf"];
     var a = await page.locator("#fileList li").allTextContents()
     console.log(a)
