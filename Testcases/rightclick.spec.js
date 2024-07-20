@@ -6,7 +6,7 @@ test("right click",async({page})=>
     await page.waitForTimeout(5000)
     
 })
-test.only("press button",async({page})=>
+test("press button",async({page})=>
     {
         await page.goto("https://playwright.dev/docs/input")
         await page.locator("#keys-and-shortcuts").press('Control+a');

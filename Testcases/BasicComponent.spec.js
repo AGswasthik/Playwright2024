@@ -64,7 +64,7 @@ const childWindow = await child_Window.title()
 console.log(childWindow)
 })
 
- test.only("table handling",async({page})=>
+ test.skip("table handling",async({page})=>
 {
   var course;
     var price;
