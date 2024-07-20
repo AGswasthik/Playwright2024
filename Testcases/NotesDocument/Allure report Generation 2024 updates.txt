@@ -1,0 +1,12 @@
+Below command execute step by step
+npm i -D allure-playwright
+npm install -g allure-commandline --save-dev
+
+Remember the line below to add in playwright.config.js
+reporter: [['html'],['allure-playwright']]
+
+after running the testcase below command to execute and remember whether allure result folder created or different name crated as per change the name in below command and execute
+
+allure generate allure-results -o allure-report --clean
+allure open allure-report
+
