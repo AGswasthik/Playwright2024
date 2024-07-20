@@ -1,0 +1,13 @@
+{
+    "From":"//input[@id='src']",
+    "To":"//input[@id='dest']",
+    "link1":"//li[@id='26918574']//div[@class='clearfix bus-item']",
+    "link2":"//li[@id='26918574']//div//span[contains(@class,'txt-val')][normalize-space()='Amenities']",
+    "link3":"//li[@id='26918574']//div//span[contains(@class,'txt-val')][normalize-space()='Bus Photos']",
+    "link4":"//li[@id='26918574']//div//span[contains(@class,'txt-val')][normalize-space()='Boarding & Dropping Points']",
+    "link5":"//li[@id='26918574']//div//span[contains(@class,'txt-val')][normalize-space()='Reviews']",
+    "Date":"//div[@id='onwardCal']",
+    "DateSelect":"//span[@class='DayTiles__CalendarDaysSpan-sc-1xum02u-1 fgdqFw']",
+    "SearchBus":"//button[@id='search_button']",
+    "FirstBus":"//li[@id='26918574']//div[@class='clearfix bus-item']"
+}
