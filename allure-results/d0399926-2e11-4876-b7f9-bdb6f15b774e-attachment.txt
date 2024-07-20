@@ -1,4 +1,0 @@
-Selenium Webdriver with Java Basics + Advanced + Interview Guide
-Learn SQL in Practical + Database Testing from Scratch
-Appium (Selenium) - Mobile Automation Testing from Scratch
-30
