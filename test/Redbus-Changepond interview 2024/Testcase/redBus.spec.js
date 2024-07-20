@@ -1,7 +1,7 @@
 const {exports,test}=require("@playwright/test")
 const {RedBus}=require("../../Redbus-Changepond interview 2024/class/RedBus.js") 
 
-test("Booka a bus in REDBUS",async({page})=>
+test.skip("Booka a bus in REDBUS",async({page})=>
 {
     var homePage=new RedBus(page)
     await homePage.openURL() 

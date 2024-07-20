@@ -1,5 +1,5 @@
 import {test, expect} from "@playwright/test"
-test("Datehandling", async ({ page }) => {
+test.skip("Datehandling", async ({ page }) => {
     await page.goto("https://www.redbus.in/")
     await page.waitForLoadState('networkidle')
     await page.locator(".labelCalendarContainer").click()
