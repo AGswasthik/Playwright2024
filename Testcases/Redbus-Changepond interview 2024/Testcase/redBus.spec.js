@@ -9,6 +9,6 @@ test("Booka a bus in REDBUS",async({page})=>
     await homePage.bookBus()
     await page.waitForTimeout(5000)
     await homePage.userdateselect()
-    await homePage.alllinks()
+    await homePage.alllinks()    
     
 })
