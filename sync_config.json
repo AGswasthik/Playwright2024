@@ -1,0 +1,26 @@
+{
+    "log_level": "debug",
+    "ado": {
+        "organization": "my_ado_organization",
+        "project": "my project",
+        "wit": "User Story",
+        "states": {
+            "new": "New",
+            "closed": "Closed",
+            "reopened": "New",
+            "deleted": "Removed",
+            "active": "Active"
+        },
+        "bypassRules": true,
+        "autoCreate": true,
+        "assignedTo": "default@myorganization.com",
+        "areaPath": "my_project\\A Path",
+        "iterationPath": "my_project\\Sprint 2",
+        "mappings": {
+            "handles": {
+                "user_a": "user.a@myorganization.com",
+                "user_b": "user.b@myorganization.com"
+            }
+        }
+    }
+}
